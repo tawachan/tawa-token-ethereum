@@ -1,0 +1,47 @@
+{
+  "name": "crowdcoin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "yarn truffle test",
+    "eslint": "eslint ./pages/**/*.js --fix",
+    "sollint": "yarn solhint ./ethereum/contracts/**/*.sol --version 0.5.0",
+    "lint": "yarn eslint && yarn sollint",
+    "contract:compile": "yarn truffle compile",
+    "contract:migrate": "yarn truffle migrate"
+  },
+  "dependencies": {
+    "drizzle": "^1.2.4",
+    "drizzle-react": "^1.2.0",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "truffle-hdwallet-provider": "^1.0.3",
+    "web3": "^1.0.0-beta.37"
+  },
+  "devDependencies": {
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^3.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-standard": "^4.0.0",
+    "fs-extra": "^7.0.1",
+    "ganache-cli": "^6.2.5",
+    "mocha": "^5.2.0",
+    "prettier": "^1.15.3",
+    "redux-devtools-extension": "^2.13.7",
+    "solc": "^0.5.2",
+    "solhint": "^1.5.0",
+    "truffle": "^5.0.2"
+  }
+}
