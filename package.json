@@ -9,7 +9,6 @@
     "start": "next start",
     "test": "yarn truffle test",
     "eslint": "eslint ./pages/**/*.js --fix",
-    "sollint": "yarn solhint ./ethereum/contracts/*.sol",
     "lint": "yarn eslint && yarn sollint",
     "contract:compile": "yarn truffle compile",
     "contract:migrate": "yarn truffle migrate"
@@ -42,7 +41,6 @@
     "prettier": "^1.15.3",
     "redux-devtools-extension": "^2.13.7",
     "solc": "^0.5.2",
-    "solhint": "^1.5.0",
     "truffle": "^5.0.2",
     "zeppelin-solidity": "^1.12.0"
   }
