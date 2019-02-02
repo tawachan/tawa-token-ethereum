@@ -1,5 +1,7 @@
 {
   "git.ignoreLimitWarning": true,
   "editor.formatOnSave": true,
-  "solidity.linter": "solhint"
+  "solidity.linter": "solhint",
+  "solidity.packageDefaultDependenciesContractsDirectory": "",
+  "solidity.packageDefaultDependenciesDirectory": "node_modules"
 }
