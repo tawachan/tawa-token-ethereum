@@ -41,6 +41,7 @@
     "prettier": "^1.15.3",
     "redux-devtools-extension": "^2.13.7",
     "solc": "^0.5.2",
+    "solhint": "^1.5.1",
     "truffle": "^5.0.2",
     "zeppelin-solidity": "^1.12.0"
   }
