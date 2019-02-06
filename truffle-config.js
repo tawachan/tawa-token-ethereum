@@ -13,14 +13,13 @@ module.exports = {
       gas: 4600000
     },
     ropsten: {
-      provider: function() {
+      provider: () => {
         return new HDWalletProvider(
           mnemonic,
           "https://ropsten.infura.io/v3/c9d4a737b3d94da7b3db093c42a1094a"
         );
       },
-      network_id: 3,
-      gas: 500000
+      network_id: 3
     }
   },
   mocha: {},

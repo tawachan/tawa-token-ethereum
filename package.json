@@ -11,7 +11,8 @@
     "eslint": "eslint ./pages/**/*.js --fix",
     "lint": "yarn eslint && yarn sollint",
     "contract:compile": "yarn truffle compile",
-    "contract:migrate": "yarn truffle migrate"
+    "contract:migrate": "yarn truffle migrate",
+    "contract:console:develop": "yarn truffle develop"
   },
   "dependencies": {
     "drizzle": "^1.2.4",

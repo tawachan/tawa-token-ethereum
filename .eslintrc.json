@@ -9,11 +9,13 @@
       "error",
       {
         "singleQuote": false,
-        "semi": true
+        "semi": true,
+        "trailingComma": "es5"
       }
     ],
     "yoda": 0,
-    "no-unused-vars": 1
+    "no-unused-vars": 1,
+    "comma-dangle": ["error", "always-multiline"]
   },
   "globals": {
     "$": false

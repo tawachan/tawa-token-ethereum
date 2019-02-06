@@ -9,3 +9,8 @@ const index = () => {
 };
 
 export default index;
+
+const a = {
+  hoge: "a",
+  fuga: "b",
+};
